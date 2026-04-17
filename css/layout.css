@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    position: relative;
+}
+
+header {
+    max-width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 25px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    font-size: small;
+}
+
+@media(min-width:825px) {
+    header{
+        padding: 25px;
+    }
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
