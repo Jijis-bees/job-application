@@ -17,8 +17,35 @@ a{
     font-weight: bold;
 }
 img{
-    
+    margin: 5px;
     width: 30px;
+}
+.start{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    place-items: center;
+}
+.q-box{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #033e33;
+    margin: 15px;    
+}
+.back-box{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    display: grid;
+    place-self: start;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #033e33;
+    margin: 15px;
+    padding: 3px; 
 }
 
 .border {
