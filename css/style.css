@@ -56,10 +56,14 @@ img{
     margin-top: 15px;
 }
 .container1{
-    grid-column-start: 1;
+    grid-column-start: 2;
     grid-column-end: 3;
 }
 .container2{
-    grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.container3{
+        grid-column-start: 1;
+    grid-column-end: 3;
 }
